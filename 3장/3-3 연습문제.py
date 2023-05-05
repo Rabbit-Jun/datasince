@@ -1,0 +1,11 @@
+import numpy as np
+A=np.array([[1,1],[1,2]])
+B=np.array([[5],[8]])
+print(A)
+print()
+print(B)
+print()
+print(A.dot(B))
+A1=np.linalg.inv(A)
+print()
+print(A.dot(A1))
